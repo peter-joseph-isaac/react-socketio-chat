@@ -19,6 +19,7 @@ h1 {
     border: 1px solid black;
     color: black;
     font-weight: bold;
+    font-size: 24px;
     overflow: auto;
 }
 
