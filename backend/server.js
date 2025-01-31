@@ -4,6 +4,7 @@ const port = 3001;
 const cors = require('cors');
 const bodyParser = require('body-parser');
 const socketIO = require('socket.io');
+const { v4: uuidv4 } = require('uuid');
 
 const server = require('http').createServer(app);
 
@@ -35,10 +36,13 @@ app.get('/', (req, res) => {
 app.post('/post', (req, res) => {
     const name = req.body.name;
     const message = req.body.message;
+    const id = uuidv4();
 
     console.log(name, message);
 
-    res.send('Ok');
+    io.emit('message', { id: id, name: name, message: message});
+
+    res.status(200).end();
 });
 
 io.on('connection', (socket) => {

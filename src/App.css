@@ -1,0 +1,45 @@
+#chat {
+    background: rgb(181, 181, 181);
+    width: 500px;
+    min-height: 300px;
+    border: 5px solid green;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+#message-holder {
+    width: 500px;
+    height: 300px;
+    background: rgb(181, 181, 181);
+    border: 1px solid black;
+    color: black;
+    font-weight: bold;
+    overflow: auto;
+}
+
+#input-holder {
+    width: 500px;
+}
+
+#name {
+    font-size: 22px;
+    font-weight: bold;
+    color: black;
+    padding: 5px;
+}
+
+#send-message {
+    width: 360px;
+    height: 50px;
+    font-size: 18px;
+    padding: 5px;
+}
+
+#send-button {
+    width: 100px;
+    height: 50px;
+    font-size: 24px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
