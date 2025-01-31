@@ -68,6 +68,7 @@ function App() {
   return (
     <>
       <div id="chat">
+      <h1>Live Chat!</h1>
         <div id="message-holder">
           {messages.map((message) => <ul key={message.id}>{message.name} : {renderTextWithImages(message.message, message.id)}</ul>)}
           <div ref={messageRef} />

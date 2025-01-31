@@ -8,6 +8,10 @@
     padding: 10px;
 }
 
+h1 {
+    text-align: center;
+}
+
 #message-holder {
     width: 500px;
     height: 300px;
