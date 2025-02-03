@@ -75,29 +75,34 @@ cd react-socketio-chat
   npm install
   ```
 
-3. Start the backend server:
-cd backend
-npm start
+3. Start the backend server:  
+```
 
-4. Start the frontend server:
-open new terminal
-npm start
+cd backend  
+npm start  
+```
+
+4. Start the frontend server:  
+```
+open new terminal  
+npm start  
+```
 
 5. Open your browser and navigate to `http://localhost:5173`.
 
 ---
 
 ## Folder Structure
-react-socketio-chat/
-├── backend/ # Backend server folder
-│ ├── server.js # Main server file with Express & Socket.IO setup
-│ ├── package.json # Backend dependencies & scripts
-│ └── ...
-├── src/ # Frontend React application folder
-│ ├── App.jsx # Main React component and Socket.IO client setup
-│ └── ...
-├── package.json # Frontend dependencies & scripts
-└── README.md # Project documentation file
+react-socketio-chat/  
+├── backend/ # Backend server folder  
+│ ├── server.js # Main server file with Express & Socket.IO setup  
+│ ├── package.json # Backend dependencies & scripts  
+│ └── ...  
+├── src/ # Frontend React application folder  
+│ ├── App.jsx # Main React component and Socket.IO client setup  
+│ └── ...  
+├── package.json # Frontend dependencies & scripts  
+└── README.md # Project documentation file  
 
 
 ---
