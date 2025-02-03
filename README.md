@@ -77,7 +77,6 @@ cd react-socketio-chat
 
 3. Start the backend server:  
 ```
-
 cd backend  
 npm start  
 ```
@@ -93,6 +92,7 @@ npm start
 ---
 
 ## Folder Structure
+```
 react-socketio-chat/  
 ├── backend/ # Backend server folder  
 │ ├── server.js # Main server file with Express & Socket.IO setup  
@@ -103,7 +103,7 @@ react-socketio-chat/
 │ └── ...  
 ├── package.json # Frontend dependencies & scripts  
 └── README.md # Project documentation file  
-
+```
 
 ---
 
