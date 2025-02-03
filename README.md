@@ -58,7 +58,7 @@ Ensure you have the following installed:
 ### Steps to Run Locally:
 
 1. Clone the repository:
-git clone https://github.com/owpji/react-socketio-chat
+git clone https://github.com/owpji/react-socketio-chat  
 cd react-socketio-chat
 
 2. Install dependencies:
