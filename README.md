@@ -130,4 +130,4 @@ For questions or feedback, feel free to reach out:
 
 **Peter Isaac**  
 - Linkedln: https://www.linkedin.com/in/peter-joseph-isaac/
-- GitHub: [@owpji](https://github.com/owpji)
+- GitHub: [https://github.com/peter-joseph-isaac](https://github.com/peter-joseph-isaac)
