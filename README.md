@@ -64,7 +64,7 @@ Ensure you have the following installed:
 
 1. Clone the repository:
 git clone https://github.com/peter-joseph-isaac/react-socketio-chat.git
-cd react-socketio-chat
+  cd react-socketio-chat
 
 2. Install dependencies:
 
