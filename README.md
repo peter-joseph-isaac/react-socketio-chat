@@ -2,7 +2,9 @@
 
 A **Real-time Chat Application** built using **React.js** for the frontend and **Express.js** with **Socket.IO** for the backend. This application enables users to communicate in real-time with seamless two-way data transfer.
 
-## Live Demo 
+---
+
+### Live Demo 
 https://react-socket-io-chat.onrender.com
 
 ---
@@ -61,7 +63,7 @@ Ensure you have the following installed:
 ### Steps to Run Locally:
 
 1. Clone the repository:
-git clone https://github.com/peter-joseph-isaac/react-socketio-chat  
+git clone https://github.com/peter-joseph-isaac/react-socketio-chat.git
 cd react-socketio-chat
 
 2. Install dependencies:
