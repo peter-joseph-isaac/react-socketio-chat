@@ -1,9 +1,8 @@
 # React-SocketIO-Chat
 
-## Live Demo
-https://react-socket-io-chat.onrender.com
-
 A **Real-time Chat Application** built using **React.js** for the frontend and **Express.js** with **Socket.IO** for the backend. This application enables users to communicate in real-time with seamless two-way data transfer.
+
+## Live Demo : https://react-socket-io-chat.onrender.com
 
 ---
 
